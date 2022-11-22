@@ -2,9 +2,11 @@ import React from "react";
 import Card from "./Card";
 
 const CardList=({test})=> {
-    if (true) {
-        throw new Error("Noo");
-    }
+    
+    //for testing ErrorBoundary component
+    // if (true) {
+    //     throw new Error("Noo");
+    // }
     return (
         <div>
             {
